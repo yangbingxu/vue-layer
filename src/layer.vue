@@ -28,6 +28,8 @@ export default {
                 content: '',
                 area: 'auto',
                 offset: 'auto',
+                closeBtn: 1,
+                maxmin : false,
                 icon: -1,
                 btn: '确定',
                 time: 0,

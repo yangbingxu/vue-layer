@@ -10,8 +10,8 @@ export default class helper {
     if (mask && (mask.indexOf("notify-mask") > -1 || mask.indexOf("icon-remove") > -1)) {
       layer.close(id);
     }
-    console.log('aaaaa00000000');
   }
+
   /**
    * 默认的yes按钮操作
    * @param  {[type]} event [description]

@@ -50,7 +50,7 @@ export default {
   },
   methods: {
     submitHandle: function () {
-      let id = this.$layer.alert("this is demo!!!");
+      let id = this.$layer.alert("this is demo!!!",{maxmin : true, closeBtn : 1});
     },
     confirmHandle: function () {
       let self = this;
